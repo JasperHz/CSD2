@@ -5,3 +5,8 @@ ls - list
 touch - file aanmaken
 atom .
 atom [filename]
+
+git status
+git add -A
+git commit
+git push origin master
