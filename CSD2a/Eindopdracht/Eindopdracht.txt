@@ -1,0 +1,26 @@
+Irregular Beat Generator - Stappenplan
+
+- Genereert en speelt ritme mbv audio samples
+- CHOICE: 5/4 of 7/8 maatsoort
+- INPUT: BPM (optional: user sample files)
+- PLAY BEAT
+- Ask user of ze specifieke beat willen bewaren (export to MIDI)
+- Generate new beat >> repeat from line 6
+
+- NO GUI
+- Samples verdeeld over spectrum (bv. Kick, Snare, Hat)
+- Algoritme moet rekening houden met logische ritmische onderverdeling passend bij de maatsoort
+- DEADLINE 23 oktober
+
+
+
+
+
+Criteria:
+- Overzichtelijke code, betekenisvolle namen
+- Zinvolle comments
+- Geen uitgecommente garbage
+- Klank
+- Duidelijke guiding voor de user
+
+[
