@@ -5,16 +5,19 @@ import array
 
 waveObject = sa.WaveObject.from_wave_file("./audioFiles/chord.wav")
 
-# beatLengths is een array met lengte numPlaybackTimes gevuld met waardes van nootlengtes ingegeven door user
-# nu wil ik de array beatLengths koppelen aan een geluid dat afgespeeld wordt met de lengte in van de array waarde
+print("Hoe vaak wil je de sample afspelen?")
 
 numPlaybackTimes = int(input())
 
 beatLengths = []
 
+print("Geef nu " + str(numPlaybackTimes) + " nootwaardes in.")
+
 for i in range(numPlaybackTimes):
     x = float(input())
     beatLengths.append(x)
+
+print("Welk BPM wil je gebruiken?")
 
 bpm = input()
 beatTime = 60 / int(bpm)
@@ -32,3 +35,17 @@ def play (numTimes):
         playObject.stop()
 
 play(numPlaybackTimes)
+
+
+
+
+
+
+
+# python3 Opdracht2.py < input.txt  om aan te roepen.
+# hihat = sa.WaveObject
+#
+# def playSample(sampleObject):
+#     play_obj = sampleObject.play()
+#
+# playSample(hihat[1])
