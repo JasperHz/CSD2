@@ -163,7 +163,7 @@ for i in range(len(finalSeqFlatLow)):
 track    = 0
 channel  = 0
 time     = 0    # In beats
-duration = 1    # In beats
+duration = 0.25 # In beats
 tempo    = bpm  # In BPM
 volume   = 100  # 0-127, as per the MIDI standard
 trackName = "IrregularBeatGenerator"
@@ -197,12 +197,5 @@ if writeToMidi == "Y":
         MyMIDI.writeFile(output_file)
         print("Written to IrregularBeatGenerator.mid")
 else: print("No MIDI written.")
-
-
-
-
-
-
-
 
 print("Done!")
